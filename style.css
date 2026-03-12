@@ -33,8 +33,9 @@ button {
 }
 
 hr {
-    color: lightgray;
-   
+    border: none;
+    height: 1px;
+    background-color: lightgray;
 }
 
 section {
@@ -65,3 +66,123 @@ section {
     padding: 20px;
     
 }
+
+h1 {
+    color: red;
+    padding: 50px;
+}
+
+.carro {
+    height: 263px;
+    width: 480px;
+}
+
+.noticia_1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.text_carro {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: Crimson;
+    padding: 10px 59px 40px 10px;
+    margin-right: auto;
+}
+
+.bold {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.branco {
+    color: white;
+    font-size: 12px;
+}
+
+.mulheres {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 20px;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+}
+
+.gray {
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.title2 {
+    padding-top: 30px;
+    color: red;
+    font-weight: bold;
+    
+}
+
+.correio {
+    background-color: #565656;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: normal;
+}
+
+.dentista {
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.anuncios {
+    color: gray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.small_correio {
+    width: 100px;
+    height: 25px;
+}
+ .espaco {
+    padding-top: 50px;
+ }
+
+ .bahia {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 50px;
+ }
